@@ -1,0 +1,31 @@
+body {
+    font-family: monospace;
+}
+
+ul {
+font-family: Helvetica;
+}
+
+li {
+    list-style: circle;
+}
+
+.list{
+    font-family: Impact;
+    list-style: square;
+}
+
+#msg {
+    color: blue;
+    font-family: monospace;
+}
+
+.light-theme {
+    color: black;
+    background: #00FF00;
+}
+
+.dark-theme {
+    color: #00FF00;
+    background: #000000;
+}
