@@ -11,6 +11,7 @@ html:5
 
 Com isso ele ja traz o esqueleto do HTML montado conforme exemplo abaixo: 
 
+<!
 <!DOCTYPE html> - Representa o tipo de documento 
 <html lang="en"> - Idioma do site 
 <head>
@@ -22,4 +23,4 @@ Com isso ele ja traz o esqueleto do HTML montado conforme exemplo abaixo:
  Aqui é onde vai o codigo 
 </body>
 </html>
-
+->
