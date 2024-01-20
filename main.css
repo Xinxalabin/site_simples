@@ -1,31 +1,38 @@
+:root {
+    --green: #00FF00;
+    --white: #FFFFFF;
+    --black: #000000;    
+}
+
+* {
+    color: var(--fontColor);
+    font-family:Helvetica;
+}
 body {
-    font-family: monospace;
+    background: var(--bg);
 }
-
 ul {
-font-family: Helvetica;
-}
-
+    font-family: monospace;
+    }
 li {
     list-style: circle;
 }
 
 .list{
-    font-family: Impact;
+    font-family: 'Franklin Gothic Medium';
     list-style: square;
 }
 
 #msg {
-    color: blue;
-    font-family: monospace;
+    font-family: fantasy;
 }
 
 .light-theme {
-    color: black;
-    background: #00FF00;
+    --bg: var(--green);
+    --fontColor: var(--black);
 }
 
 .dark-theme {
-    color: #00FF00;
-    background: #000000;
+    --bg: var(--black);
+    --fontColor: var(--green);
 }
