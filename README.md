@@ -24,3 +24,12 @@ Com isso ele ja traz o esqueleto do HTML montado conforme exemplo abaixo:
 </body>
 </html>
 ->
+
+.dark-theme {
+    color: #00FF00;
+    background: #000000;
+}
+
+
+==========================
+OBS - Colocar o script no final do body, garante que a pagina seja toda carregada antes da execução do script. 

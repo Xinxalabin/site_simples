@@ -14,6 +14,7 @@ body {
 ul {
     font-family: monospace;
     }
+
 li {
     list-style: circle;
 }
@@ -23,9 +24,7 @@ li {
     list-style: square;
 }
 
-#msg {
-    font-family: fantasy;
-}
+
 
 .light-theme {
     --bg: var(--green);
